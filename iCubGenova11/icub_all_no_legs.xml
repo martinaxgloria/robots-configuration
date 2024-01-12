@@ -74,8 +74,11 @@
     <xi:include href="wrappers/skin/torso-skin_wrapper.xml" />
     <xi:include href="hardware/skin/torso-eb22-skin.xml" />
 
-    <!-- ANALOG SENSOR FT -->
+    <!-- FT SENSORS - IMU -->
+    <xi:include href="hardware/inertials/left_arm-eb1-IMU.xml" />
+    <xi:include href="hardware/inertials/right_arm-eb3-IMU.xml" />
 
+    <!-- ANALOG SENSOR FT -->
     <xi:include href="wrappers/FT/left_arm-FT_wrapper.xml" />
     <xi:include href="wrappers/FT/right_arm-FT_wrapper.xml" />
     <xi:include href="hardware/FT/left_arm-eb1-j0_3-strain.xml" />
@@ -95,4 +98,3 @@
 
     </devices>
 </robot>
-
