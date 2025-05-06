@@ -20,7 +20,7 @@
         <!-- joint name                         neck-pitch  neck-roll   neck-yaw    eyes-tilt -->
         <group name="CALIBRATION">
             <param name="calibrationType">      12          12          12          12         </param>
-            <param name="calibration1">   	    36539       14555       2539	    4995      </param>
+            <param name="calibration1">   	    35339       38123       14410	    4995      </param>
             <param name="calibration2">         0           0           0	        0          </param>
             <param name="calibration3">         0           0           0           0          </param>
 
